@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tanser"
+version = "0.1.0"
+description = "Telegram integration service"
+authors = ["pavkazzz <me@pavkazzz.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+telethon = "^1.15.0"
+orjson = "^3.3.0"
+httpx = "^0.13.3"
+fastapi = "^0.60.1"
+uvicorn = "^0.11.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+pytest-asyncio = "^0.14.0"
+setuptools = "^49.2.0"
+black = "^19.10b0"
+isort = "^5.1.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
